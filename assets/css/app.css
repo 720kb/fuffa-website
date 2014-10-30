@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Digit';
+  src: url('../fonts/avenir-medium.eot');
+  src: url('../fonts/avenir-medium.eot') format('embedded-opentype'),
+  url('../fonts/avenir-medium.woff2') format('woff2'),
+  url('../fonts/avenir-medium.woff') format('woff'),
+  url('../fonts/avenir-medium.ttf') format('truetype'),
+  url('../fonts/avenir-medium.svg#Digit') format('svg');
+}
+/*Fonts*/
+.font-family-1 {
+  font-family: 'Avenir';
+  font-weight: 500;
+}
+.font-x-large{
+  font-size: 45px;
+}
+/*Backgrounds*/
+.bg-grey{
+  background-color: #E7E7EA;
+}
+/*Layout*/
+.line-max{
+  max-width:900px;
+  float:none;
+  margin:0 auto;
+}

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 800 1640"
+   id="svg3125"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="100%"
+   height="100%"
+   sodipodi:docname="iphone.svg">
+  <metadata
+     id="metadata3174">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1205"
+     inkscape:window-height="741"
+     id="namedview3172"
+     showgrid="false"
+     inkscape:zoom="0.57560976"
+     inkscape:cx="378.94537"
+     inkscape:cy="1204.9569"
+     inkscape:window-x="173"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3125" />
+  <defs
+     id="defs3127">
+    <style
+       id="style3129">
+        [data-theme*=&quot;stroke&quot;].iphone-5c-green { stroke: #8DD95B; }
+        [data-theme*=&quot;stroke&quot;].iphone-5c-blue { stroke: #62BCF3; }
+        [data-theme*=&quot;stroke&quot;].iphone-5c-yellow { stroke: #F6E26F; }
+        [data-theme*=&quot;stroke&quot;].iphone-5c-red { stroke: #E4675D; }
+        [data-theme*=&quot;stroke&quot;].iphone-5c-white { stroke: #EDEDED; }
+        [data-theme*=&quot;fill&quot;].iphone-5c-green { fill: #8DD95B; }
+        [data-theme*=&quot;fill&quot;].iphone-5c-blue { fill: #62BCF3; }
+        [data-theme*=&quot;fill&quot;].iphone-5c-yellow { fill: #F6E26F; }
+        [data-theme*=&quot;fill&quot;].iphone-5c-red { fill: #E4675D; }
+        [data-theme*=&quot;fill&quot;].iphone-5c-white { fill: #EDEDED; }
+        </style>
+    <clipPath
+       id="glare">
+      <rect
+         x="10"
+         y="10"
+         width="730"
+         height="1570"
+         rx="100"
+         ry="100"
+         id="rect3132" />
+    </clipPath>
+  </defs>
+  <rect
+     x="525"
+     y="7"
+     width="122"
+     height="30"
+     rx="3"
+     ry="3"
+     class="iphone-5c-green"
+     data-theme="fill"
+     id="rect3138"
+     style="fill:#0089ff;fill-opacity:1" />
+  <rect
+     x="8"
+     y="237"
+     width="30"
+     height="70"
+     rx="3"
+     ry="3"
+     class="iphone-5c-green"
+     data-theme="fill"
+     id="rect3140"
+     style="fill:#0089ff;fill-opacity:1" />
+  <rect
+     x="8"
+     y="353"
+     width="30"
+     height="108"
+     rx="3"
+     ry="3"
+     class="iphone-5c-green"
+     data-theme="fill"
+     id="rect3142"
+     style="fill:#0089ff;fill-opacity:1" />
+  <rect
+     x="8"
+     y="502"
+     width="30"
+     height="108"
+     rx="3"
+     ry="3"
+     class="iphone-5c-green"
+     data-theme="fill"
+     id="rect3144"
+     style="fill:#0089ff;fill-opacity:1" />
+  <rect
+     x="35"
+     y="35"
+     width="730"
+     height="1570"
+     rx="100"
+     ry="100"
+     id="rect3148"
+     style="fill:#000000;stroke:#353535;stroke-width:10" />
+  <rect
+     width="750"
+     height="1590"
+     rx="110"
+     ry="110"
+     data-theme="stroke"
+     class="iphone-5c-green"
+     id="border"
+     x="25"
+     y="25"
+     style="fill:#000000;stroke:#0089ff;stroke-width:20;stroke-opacity:1" />
+  <rect
+     width="640"
+     height="1136"
+     id="rect3153"
+     x="80"
+     y="251"
+     style="fill:#111111" />
+  <path
+     style="opacity:0.05;fill:#ffffff"
+     inkscape:connector-curvature="0"
+     id="path3156"
+     clip-path="url(#glare)"
+     d="m 320,0 480,0 0,1600"
+     transform="translate(25,25)" />
+  <circle
+     cx="0"
+     cy="0"
+     r="14"
+     id="circle3160"
+     d="M 14,0 C 14,7.7319865 7.7319865,14 0,14 -7.7319865,14 -14,7.7319865 -14,0 c 0,-7.7319865 6.2680135,-14 14,-14 7.7319865,0 14,6.2680135 14,14 z"
+     sodipodi:cx="0"
+     sodipodi:cy="0"
+     sodipodi:rx="14"
+     sodipodi:ry="14"
+     style="fill:#212425"
+     transform="translate(400,105)" />
+  <rect
+     x="330"
+     y="155"
+     width="140"
+     height="30"
+     rx="15"
+     ry="15"
+     id="rect3162"
+     style="fill:#212425" />
+  <circle
+     cx="0"
+     cy="0"
+     r="65"
+     id="circle3166"
+     d="M 65,0 C 65,35.898509 35.898509,65 0,65 -35.898509,65 -65,35.898509 -65,0 c 0,-35.898509 29.101491,-65 65,-65 35.898509,0 65,29.101491 65,65 z"
+     sodipodi:cx="0"
+     sodipodi:cy="0"
+     sodipodi:rx="65"
+     sodipodi:ry="65"
+     style="fill:#212425"
+     transform="translate(400,1495)" />
+  <rect
+     x="377.5"
+     y="1472.5"
+     width="45"
+     height="45"
+     rx="8"
+     yx="8"
+     id="rect3168"
+     style="fill:none;stroke:#8a8e91;stroke-width:5" />
+  <script
+     id="script3170">
+
+    (function () {
+
+        var screenshot = document.location.search.match(/screenshot=([^&amp;]+)/),
+            selectedTheme = document.location.search.match(/theme=([^&amp;]+)/),
+            themes = [ 'iphone-5c-blue', 'iphone-5c-green', 'iphone-5c-yellow', 'iphone-5c-red', 'iphone-5c-white' ] ;
+
+        if (screenshot &amp;&amp; screenshot.length) {
+
+            document.querySelector('#screenshot').setAttribute('xlink:href', screenshot[1]);
+
+        }
+
+        if (selectedTheme &amp;&amp; selectedTheme.length === 2 &amp;&amp; themes.indexOf(selectedTheme[1]) !== -1) {
+
+            Array.prototype.slice.call(document.querySelectorAll('[data-theme]')).forEach(function (obj) {
+
+                obj.setAttribute('class', selectedTheme[1]);
+
+            });
+
+        }
+
+    }());
+
+    </script>
+</svg>
