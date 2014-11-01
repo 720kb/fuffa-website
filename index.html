@@ -6,6 +6,7 @@
   <title></title>
 </head>
 <body>
+  <div id="fb-root"></div>
   <div class="line bg-grey">
     <div class="separator100"></div>
     <div class="separator100"></div>
@@ -53,25 +54,30 @@
         </div>
       </div>
     </div>
-    <div class="line-compress">
+    <div class="line">
       <div class="separator50"></div>
-      <div class="line-compress toggle-opacity-hover">
-        <h1 class="font-medium font-large ">
-          <span class="col3 center-content line-tablet">
+      <div class="separator30"></div>
+      <div class="line toggle-opacity-hover">
+        <h3 class="font-medium">
+          <span class="col4  center-content line-tablet">
             <div class="separator5 mobile tablet"></div>
-            Copyright &copy; <a href="//:720kb.net">720kb</a>
+            Copyright &copy; <a href="//:720kb.net">720kb</a> all rights reserved
           </span>
           <span class="col2 center-content line-tablet">
-            <div class="separator5 mobile tablet"></div>
+            <div class="separator10 mobile tablet"></div>
             <a href="//:720kb.net">Terms of use</a>
           </span>
           <span class="col2 center-content line-tablet">
-            <div class="separator5 mobile tablet"></div>
+            <div class="separator10 mobile tablet"></div>
             <a href="//:720kb.net" target="_blank">Privacy Policy</a>
           </span>
-        </h1>
+          <span class="col2 center-content line-tablet">
+            <div class="separator15 mobile tablet"></div>
+            <div class="fb-like v-bottom" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>&nbsp;
+            <a href="https://twitter.com/share" class="twitter-share-button v-bottom" data-count="none">Tweet</a>
+          </span>
+        </h3>
       </div>
-
       <div class="separator30"></div>
     </div>
   </div>
@@ -97,8 +103,20 @@
         iphone.classList.add('iphone-boy');
         iphone.classList.remove('iphone-girl');
       }
-    }, 1800);
+    }, 11800);
   })();
   </script>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=529955840463675&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+
 </body>
 </html>
