@@ -7,10 +7,23 @@
   url('../fonts/avenir-medium.ttf') format('truetype'),
   url('../fonts/avenir-medium.svg#Digit') format('svg');
 }
+a{
+  color:#888;
+  font-size: inherit;
+}
+a:hover{
+  color:inherit;
+}
 /*Fonts*/
 .font-family-1 {
   font-family: 'Avenir';
   font-weight: 500;
+}
+.font-small{
+  font-size: 13px;
+}
+.font-large{
+  font-size: 20px;
 }
 .font-x-large{
   font-size: 45px;
@@ -21,7 +34,28 @@
 }
 /*Layout*/
 .line-max{
-  max-width:900px;
+  width:100%;
+  max-width:800px;
   float:none;
   margin:0 auto;
+}
+/*Extra*/
+#iphone{
+  width:350px;
+  webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.iphone-boy{
+  background: url('../img/iphone-boy.png') no-repeat center top;
+}
+.iphone-girl{
+  background: url('../img/iphone-girl.png') no-repeat center top;
+}
+#slider{
+  height:600px;
+  width:280px;
+}
+#slider img{
+  margin:0 auto;
+  float:none;
 }

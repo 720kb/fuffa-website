@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="vendor/csshelper/dist/helper.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/app.css">
-  <title>Emotio</title>
+  <title></title>
 </head>
 <body>
   <div class="line bg-grey">
@@ -11,7 +11,7 @@
     <div class="separator100"></div>
     <div class="separator100"></div>
   </div>
-  <div class="overlay line overlay no-bg line-max line-tablet">
+  <div class="absolute left right line-max no-bg layer2">
     <div class="separator100"></div>
     <div class="col4 center-content line-tablet">
       <div class="line">
@@ -32,15 +32,73 @@
         </div>
       </div>
       <div class="separator30"></div>
-
       <img src="assets/img/google-store.png"/>
       <div class="separator10"></div>
       <img src="assets/img/apple-store.png"/>
-    </div>
-    <div class="col6 center-content line-tablet">
       <div class="separator50"></div>
-      <img src="assets/img/iphone.svg" width="350"/>
+    </div>
+    <div class="col6 center-content line-tablet center-content">
+      <div id="iphone" class="iphone-boy">
+        <div class="separator100"></div>
+        <div class="separator15"></div>
+        <div id="slider">
+          <img src="assets/img/screen1.png" width="100%"/>
+          <img src="assets/img/screen6.png" width="100%"/>
+          <img src="assets/img/screen3.png" width="100%"/>
+          <img src="assets/img/screen8.png" width="100%"/>
+          <img src="assets/img/screen4.png" width="100%"/>
+          <img src="assets/img/screen2.png" width="100%"/>
+          <img src="assets/img/screen5.png" width="100%"/>
+          <img src="assets/img/screen7.png" width="100%"/>
+        </div>
+      </div>
+    </div>
+    <div class="line-compress">
+      <div class="separator50"></div>
+      <div class="line-compress toggle-opacity-hover">
+        <h1 class="font-medium font-large ">
+          <span class="col3 center-content line-tablet">
+            <div class="separator5 mobile tablet"></div>
+            Copyright &copy; <a href="//:720kb.net">720kb</a>
+          </span>
+          <span class="col2 center-content line-tablet">
+            <div class="separator5 mobile tablet"></div>
+            <a href="//:720kb.net">Terms of use</a>
+          </span>
+          <span class="col2 center-content line-tablet">
+            <div class="separator5 mobile tablet"></div>
+            <a href="//:720kb.net" target="_blank">Privacy Policy</a>
+          </span>
+        </h1>
+      </div>
+
+      <div class="separator30"></div>
     </div>
   </div>
+  <script type="text/javascript" src="vendor/simpleslider/dist/simpleslider.min.js"></script>
+  <script>
+  (function () {
+    var iphone = document.getElementById('iphone')
+    , slider = new SimpleSlider(document.getElementById('slider'), {
+      'autoPlay':false,
+      'transitionDelay':0,
+      'transitionTime':0.3,
+    });
+
+    setInterval(function () {
+
+      slider.next();
+
+      if (iphone.classList[0] === 'iphone-boy') {
+
+        iphone.classList.add('iphone-girl');
+        iphone.classList.remove('iphone-boy');
+      } else {
+        iphone.classList.add('iphone-boy');
+        iphone.classList.remove('iphone-girl');
+      }
+    }, 1800);
+  })();
+  </script>
 </body>
 </html>

@@ -1,3 +1,6 @@
 [submodule "vendor/csshelper"]
 	path = vendor/csshelper
 	url = https://github.com/720kb/csshelper.git
+[submodule "vendor/simpleslider"]
+	path = vendor/simpleslider
+	url = git@github.com:ruyadorno/SimpleSlider.git
