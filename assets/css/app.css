@@ -29,8 +29,12 @@ a:hover{
   font-size: 45px;
 }
 /*Backgrounds*/
+.bg-pattern{
+  background-image: url('../img/pattern.png');
+  background-size: 180px;
+}
 .bg-grey{
-  background-color: #E7E7EA;
+  background-color: #EFF3F3;
 }
 /*Layout*/
 .line-max{

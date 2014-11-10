@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="vendor/csshelper/dist/helper.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/app.css">
   <title></title>
@@ -16,7 +17,9 @@
     <div class="separator100"></div>
     <div class="col4 center-content line-tablet">
       <div class="line">
-        <h1 class="font-family-1 font-x-large">Amiko</h1>
+        <h1 class="font-family-1 font-x-large">
+          <img src="assets/img/amico.png" width="100"/>
+        </h1>
       </div>
       <div class="separator15"></div>
       <img src="assets/img/logo.png"/>
@@ -28,7 +31,6 @@
               Amiko is your best friend, tell your emotions to amiko he will send them to your friends.
             </h4>
             <div class="separator10"></div>
-            Its free for all !
           </div>
         </div>
       </div>
@@ -58,7 +60,7 @@
       <div class="separator50"></div>
       <div class="separator30"></div>
       <div class="line toggle-opacity-hover">
-        <h3 class="font-medium">
+        <h4 class="font-medium">
           <span class="col4  center-content line-tablet">
             <div class="separator5 mobile tablet"></div>
             Copyright &copy; <a href="//:720kb.net">720kb</a> all rights reserved
@@ -76,14 +78,15 @@
             <div class="fb-like v-bottom" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>&nbsp;
             <a href="https://twitter.com/share" class="twitter-share-button v-bottom" data-count="none">Tweet</a>
           </span>
-        </h3>
+        </h4>
       </div>
       <div class="separator30"></div>
     </div>
   </div>
   <script type="text/javascript" src="vendor/simpleslider/dist/simpleslider.min.js"></script>
-  <script>
+  <script type="text/javascript">
   (function () {
+
     var iphone = document.getElementById('iphone')
     , slider = new SimpleSlider(document.getElementById('slider'), {
       'autoPlay':false,
@@ -103,7 +106,7 @@
         iphone.classList.add('iphone-boy');
         iphone.classList.remove('iphone-girl');
       }
-    }, 11800);
+    }, 15000);
   })();
   </script>
   <script>(function(d, s, id) {
