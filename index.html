@@ -18,11 +18,11 @@
     <div class="col4 center-content line-tablet">
       <div class="line">
         <h1 class="font-family-1 font-x-large">
-          <img src="assets/img/amico.png" width="100"/>
+          <img src="assets/img/amico.png" width="110"/>
         </h1>
       </div>
       <div class="separator15"></div>
-      <img src="assets/img/logo.png"/>
+      <img src="assets/img/logo.png" width="200"/>
       <div class="separator30"></div>
       <div class="line-compress font-family-1">
         <div class="line-compress">
@@ -83,43 +83,44 @@
       <div class="separator30"></div>
     </div>
   </div>
-  <script type="text/javascript" src="vendor/simpleslider/dist/simpleslider.min.js"></script>
-  <script type="text/javascript">
-  (function () {
+</div>
+<script type="text/javascript" src="vendor/simpleslider/dist/simpleslider.min.js"></script>
+<script type="text/javascript">
+(function () {
 
-    var iphone = document.getElementById('iphone')
-    , slider = new SimpleSlider(document.getElementById('slider'), {
-      'autoPlay':false,
-      'transitionDelay':0,
-      'transitionTime':0.3,
-    });
+  var iphone = document.getElementById('iphone')
+  , slider = new SimpleSlider(document.getElementById('slider'), {
+    'autoPlay':false,
+    'transitionDelay':0,
+    'transitionTime':0.3,
+  });
 
-    setInterval(function () {
+  setInterval(function () {
 
-      slider.next();
+    slider.next();
 
-      if (iphone.classList[0] === 'iphone-boy') {
+    if (iphone.classList[0] === 'iphone-boy') {
 
-        iphone.classList.add('iphone-girl');
-        iphone.classList.remove('iphone-boy');
-      } else {
-        iphone.classList.add('iphone-boy');
-        iphone.classList.remove('iphone-girl');
-      }
-    }, 15000);
-  })();
-  </script>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=529955840463675&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <script>
-  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script>
+      iphone.classList.add('iphone-girl');
+      iphone.classList.remove('iphone-boy');
+    } else {
+      iphone.classList.add('iphone-boy');
+      iphone.classList.remove('iphone-girl');
+    }
+  }, 15000);
+})();
+</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=529955840463675&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
 
 </body>
 </html>
