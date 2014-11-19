@@ -44,9 +44,15 @@ a:hover{
   margin:0 auto;
 }
 /*Extra*/
+.footer{
+  webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
 #iphone{
   width:350px;
   webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
 .iphone-boy{
