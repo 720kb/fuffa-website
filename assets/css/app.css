@@ -49,23 +49,10 @@ a:hover{
   -moz-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
-#iphone{
-  width:350px;
-  webkit-transition: all 0.25s linear;
-  -moz-transition: all 0.25s linear;
-  transition: all 0.25s linear;
+/*Legal*/
+#privacy-policy,#terms{
+  padding:20px 0 100px 0;
 }
-.iphone-boy{
-  background: url('../img/iphone-boy.png') no-repeat center top;
-}
-.iphone-girl{
-  background: url('../img/iphone-girl.png') no-repeat center top;
-}
-#slider{
-  height:600px;
-  width:280px;
-}
-#slider img{
-  margin:0 auto;
-  float:none;
+#privacy-policy p, #terms p{
+  margin-top:10px;
 }
