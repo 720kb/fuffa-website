@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Digit';
+  font-family: 'Avenir';
   src: url('../fonts/avenir-medium.eot');
   src: url('../fonts/avenir-medium.eot') format('embedded-opentype'),
   url('../fonts/avenir-medium.woff2') format('woff2'),
   url('../fonts/avenir-medium.woff') format('woff'),
   url('../fonts/avenir-medium.ttf') format('truetype'),
-  url('../fonts/avenir-medium.svg#Digit') format('svg');
+  url('../fonts/avenir-medium.svg#AvenirMedium') format('svg');
 }
 a{
   color:#888;
@@ -13,6 +13,9 @@ a{
 }
 a:hover{
   color:inherit;
+}
+.logo{
+  width: 310px;
 }
 /*Fonts*/
 .font-family-1 {
