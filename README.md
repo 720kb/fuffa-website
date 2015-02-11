@@ -1,1 +1,3 @@
-Fuffa is the emotional app, share emotions with people, friends
+Fuffa is the emotional app.
+
+[http://getfuffa.com](http://getfuffa.com "Fuffa")
