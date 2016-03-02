@@ -18,7 +18,8 @@ a:hover{
   color:inherit;
 }
 .logo{
-  width: 310px;
+  width: 180px;
+  max-width: 180px;
 }
 /*Fonts*/
 .font-family-1 {
@@ -67,4 +68,18 @@ a:hover{
 }
 #privacy-policy p, #terms p{
   margin-top:10px;
+}
+/*tablet*/
+@media screen and (max-width:800px) {
+  .logo{
+    max-width:150px;
+    width:150px;
+  }
+}
+/*mobile*/
+@media screen and (max-width:400px) {
+  .logo{
+    max-width:110px;
+    width:110px;
+  }
 }
